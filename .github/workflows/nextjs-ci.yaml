@@ -23,7 +23,7 @@ jobs:
        run: npm run build
 
      - name: ls
-       run: ls -l
+       run: ls -a
 
  upload-artifact:
     runs-on: ubuntu-latest
